@@ -55,7 +55,7 @@ const About = () => {
                 <div className="w-full flex">
                     <div className="basis-1/3 flex flex-col items-end justify-center">
                         <div className="text-4xl font-bold text-gray-700 z-10 translate-y-4">About Knackit</div>
-                        <div className="text-9xl font-black text-gray-300 rotate-90 translate-x-64 -translate-y-20">ABOUT</div>
+                        <div className="text-9xl font-bold text-gray-300 rotate-90 translate-x-64 -translate-y-20">ABOUT</div>
                     </div>
                     <div className="basis-2/3 flex items-center justify-end">
                         <img className="-translate-y-16" src="./images/about-us/1.png" alt="" />
