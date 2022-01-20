@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const About = () => {
     return (
-        <div className="overflow-y-hiden hidden-scrollbar w-full font">
+        <div className="overflow-y-hiden hidden-scrollbar w-full">
             {/* ------------------ navbar -------------- */}
             <nav className="w-full flex justify-between z-20 relative items-center bg-white xl:px-8 2xl:px-16 sm:px-2  h-20">
                 <Link className="navbar-brand" to="/">
