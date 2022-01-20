@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Raleway:wght@700&family=Roboto:wght@700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer utilities {
+  @variants responsive {
+    .masonry-3-col {
+      column-count: 3;
+      column-gap: 1em;
+    }
+    .masonry-2-col {
+      column-count: 2;
+      column-gap: 1em;
+    }
+    .break-inside {
+      break-inside: avoid;
+    }
+  }
+}
+
+.box-1 {
+  background: linear-gradient(
+      40deg,
+      rgba(0, 0, 0, 0.3),
+      rgba(100, 100, 100, 0.7)
+    ),
+    url("https://images.unsplash.com/photo-1588392382834-a891154bca4d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1476&q=80");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.box-2 {
+  background: linear-gradient(
+      40deg,
+      rgba(0, 0, 0, 0.3),
+      rgba(100, 100, 100, 0.7)
+    ),
+    url("https://images.unsplash.com/photo-1442120108414-42e7ea50d0b5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1549&q=80");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.box-3 {
+  background: linear-gradient(
+      40deg,
+      rgba(0, 0, 0, 0.3),
+      rgba(100, 100, 100, 0.7)
+    ),
+    url("https://images.unsplash.com/photo-1603967903255-b288e35bbad4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=685&q=80");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: black;
+}
+.hidden-content {
+  background: linear-gradient(
+      40deg,
+      rgba(230, 230, 230, 0.7),
+      rgba(230, 230, 230, 0.7)
+    ),
+    url("./assets/logo-mini.png");
+  background-repeat: repeat;
+}
+
+.hide-scrollbar {
+  -ms-overflow-style: none; /* Internet Explorer 10+ */
+  scrollbar-width: none; /* Firefox */
+}
+.hide-scrollbar::-webkit-scrollbar {
+  display: none; /* Safari and Chrome */
+}
+
+.customModal {
+  border-radius: 1em;
+  max-height: 80vh;
+  padding: 0 !important;
+  overflow: hidden !important;
+  max-width: unset !important;
+}
+.max-h-modal {
+  max-height: 90vh;
+}
+.min-h-modal {
+  min-height: 90vh;
+}
+.h-modal {
+  height: 90vh;
+}

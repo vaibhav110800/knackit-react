@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/static/css/main.518b6066.css",
+    "main.js": "/static/js/main.36e28f7c.js",
+    "static/media/Mask.png": "/static/media/Mask.a7a7efc0505bbf6eed56.png",
+    "static/media/Shell.png": "/static/media/Shell.c666784337b962d01dbc.png",
+    "static/media/Grenade.png": "/static/media/Grenade.a15c2a638ade544e4538.png",
+    "static/media/Ring.png": "/static/media/Ring.18fc11bc413f5565ebc4.png",
+    "static/media/Cash.png": "/static/media/Cash.b40821490263160d821b.png",
+    "static/media/Bell.png": "/static/media/Bell.db2c2797ef804ebdb12b.png",
+    "static/media/Diamond.png": "/static/media/Diamond.b081c91fdff3f5cd2c80.png",
+    "static/media/Perfume.png": "/static/media/Perfume.c7e9609ec27fd5b32ee8.png",
+    "index.html": "/index.html",
+    "static/media/logo-mini.svg": "/static/media/logo-mini.6dca6d6461d24b2732a28291442feb96.svg",
+    "main.518b6066.css.map": "/static/css/main.518b6066.css.map",
+    "main.36e28f7c.js.map": "/static/js/main.36e28f7c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.518b6066.css",
+    "static/js/main.36e28f7c.js"
+  ]
+}

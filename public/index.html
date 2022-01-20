@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#000000" />
+  <meta name="description" content="Web site created using create-react-app" />
+  <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+  <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+  <script>
+    function initParadoxWay() {
+      "use strict";
+
+      if ($(".testimonials-carousel").length > 0) {
+        var j2 = new Swiper(".testimonials-carousel .swiper-container", {
+          preloadImages: false,
+          slidesPerView: 1,
+          spaceBetween: 20,
+          loop: true,
+          grabCursor: true,
+          mousewheel: false,
+          centeredSlides: true,
+          pagination: {
+            el: ".tc-pagination",
+            clickable: true,
+            dynamicBullets: true,
+          },
+          navigation: {
+            nextEl: ".listing-carousel-button-next",
+            prevEl: ".listing-carousel-button-prev",
+          },
+          breakpoints: {
+            1024: {
+              slidesPerView: 3,
+            },
+          },
+        });
+      }
+
+      // bubbles -----------------
+
+      // setInterval(function () {
+      //     var size = randomValue(sArray);
+      //     $('.bubbles').append('<div class="individual-bubble" style="left: ' + randomValue(bArray) + 'px; width: ' + size + 'px; height:' + size + 'px;"></div>');
+      //     $('.individual-bubble').animate({
+      //         'bottom': '100%',
+      //         'opacity': '-=0.7'
+      //     }, 4000, function () {
+      //         $(this).remove()
+      //     });
+      // }, 350);
+    }
+
+    //   Init All ------------------
+    $(document).ready(function () {
+      initParadoxWay();
+    });
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.4.8/swiper-bundle.min.js"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script type="text/javascript">
+    var nav = document.querySelector("nav");
+
+    window.addEventListener("scroll", function () {
+      if (window.pageYOffset > 100) {
+        nav.classList.add("bg-light", "shadow");
+      } else {
+        nav.classList.remove("bg-light", "shadow");
+      }
+    });
+  </script>
+
+  <script>
+    (function () {
+      function controls() {
+        $(this)
+          .addClass("sec4-selected")
+          .siblings("sec4-button")
+          .removeClass("sec4-selected");
+        $(".sec4-slideDiv").animate(
+          {
+            top: -$(".sec4-container").height() * $(this).index(),
+          },
+          450
+        );
+      }
+
+      /***Event Listeners***/
+      const runCode = () => {
+        const button = document.querySelectorAll(".sec4-button");
+        if (button) {
+          for (var i = 0; i < button.length; i++) {
+            button[i].addEventListener("click", controls, false);
+          }
+        }
+      };
+
+      runCode();
+    })();
+  </script>
+
+  <script defer>
+    var slider = document.getElementById("myRange");
+    var output = document.getElementById("demo");
+    output.innerHTML = slider.value;
+
+    slider.oninput = function () {
+      console.log(slider);
+      output.innerHTML = slider.value;
+
+    }
+  </script>
+
+  <script defer>
+      (function () {
+
+        function controls() {
+          $(this).addClass('sec4-selected').siblings('sec4-button').removeClass('sec4-selected');
+          $('.sec4-slideDiv').animate({
+            top: -$('.sec4-container').height() * $(this).index()
+          }, 450);
+        }
+
+        /***Event Listeners***/
+        const runCode = () => {
+          const button = document.querySelectorAll('.sec4-button');
+          if (button) {
+            for (var i = 0; i < button.length; i++) {
+              button[i].addEventListener('click', controls, false);
+            }
+          }
+        }
+
+        runCode();
+
+      })();
+  </script>
+
+  <title>KnackIt App</title>
+</head>
+
+<body>
+  <noscript>You need to enable JavaScript to run this app.</noscript>
+  <div id="root"></div>
+
+  <script>
+    (function () {
+
+      function controls() {
+        $(this).addClass('sec4-selected').siblings('sec4-button').removeClass('sec4-selected');
+        $('.sec4-slideDiv').animate({
+          top: -$('.sec4-container').height() * $(this).index()
+        }, 450);
+      }
+
+      /***Event Listeners***/
+      const runCode = () => {
+        const button = document.querySelectorAll('.sec4-button');
+        if (button) {
+          for (var i = 0; i < button.length; i++) {
+            button[i].addEventListener('click', controls, false);
+          }
+        }
+      }
+
+      runCode();
+
+    })();
+  </script>
+
+</body>
+
+
+</html>
