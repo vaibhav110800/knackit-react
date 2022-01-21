@@ -1,5 +1,8 @@
 import React from 'react'
 import { Link } from "react-router-dom";
+import {
+    LinkedinFilled,
+} from "@ant-design/icons";
 
 const Team = () => {
     return (
@@ -76,36 +79,96 @@ const Team = () => {
             </div>
 
             {/* ------------------ sec3 -------------- */}
-            <div className="bg-indigo-50 flex pt-4 flex-col items-center justify-center">
-                <div className="pt-12 max-w-screen-md flex items-center justify-center flex-wrap">
-                    <div className="w-52 h-56 mb-12 mr-8">
-                        <div className="mt-8 text-4xl font-black text-gray-700">Big Title</div>
-                        <div className="mt-4 text-xl font-bold text-gray-700 mb-4">Sub Title</div>
-                    </div>
-                    <div className="w-52 h-56 mb-12 mr-8 rounded-3xl bg-white  shadow-indigo-500 shadow-2xl flex flex-col items-center justify-center">
-                        <img className="w-2/5 mb-4" src="./images/about-us/vector.png" alt="" />
-                        <div className="text-lg text-center font-bold text-gray-500 mb-4">Title</div>
-                        <div className="text-sm text-center font-semibold text-gray-500">Subtitle</div>
-                    </div>
-                    <div className="w-52 h-56 mb-12 mr-8 rounded-3xl bg-white  shadow-indigo-500 shadow-2xl flex flex-col items-center justify-center">
-                        <img className="w-2/5 mb-4" src="./images/about-us/vector.png" alt="" />
-                        <div className="text-lg text-center font-bold text-gray-500 mb-4">Title</div>
-                        <div className="text-sm text-center font-semibold text-gray-500">Subtitle</div>
-                    </div>
-                    <div className="w-52 h-56 mb-12 mr-8 rounded-3xl bg-white  shadow-indigo-500 shadow-2xl flex flex-col items-center justify-center">
-                        <img className="w-2/5 mb-4" src="./images/about-us/vector.png" alt="" />
-                        <div className="text-lg text-center font-bold text-gray-500 mb-4">Title</div>
-                        <div className="text-sm text-center font-semibold text-gray-500">Subtitle</div>
-                    </div>
-                    <div className="w-52 h-56 mb-12 mr-8 rounded-3xl bg-white  shadow-indigo-500 shadow-2xl flex flex-col items-center justify-center">
-                        <img className="w-2/5 mb-4" src="./images/about-us/vector.png" alt="" />
-                        <div className="text-lg text-center font-bold text-gray-500 mb-4">Title</div>
-                        <div className="text-sm text-center font-semibold text-gray-500">Subtitle</div>
-                    </div>
-                    <div className="w-52 h-56 mb-12 mr-8 bg-transparent">
+            <div className="bg-indigo-50 flex pt-12 pb-32 flex-col items-center justify-center">
+                <div className="mt-4 text-4xl font-bold text-gray-700 mb-4">Title</div>
 
+                <div className="pt-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-6">
+
+
+                    <div className="w-72 h-88 rounded-3xl relative">
+                        <img className="abolute w-full h-full object-cover rounded-3xl" src="./images/team/zz.png" alt="" />
+                        <div className='absolute bottom-6 left-3 bg-white/60 backdrop-blur-3xl w-11/12 h-40 flex flex-col items-start justify-center rounded-xl'>
+                            <div className='pl-4 text-xl text-white font-semibold'>Name</div>
+                            <div className='w-11/12 pl-4 text-xs text-white font-semibold'>Nunc velit ultrices lobortis elementum. Nunc velit ultrices lobortis elementum.Nunc velit ultrices lobortis elementum.</div>
+                        </div>
                     </div>
+
+                    <div className="w-72 h-88 rounded-3xl relative">
+                        <img className="abolute w-full h-full object-cover rounded-3xl" src="./images/team/zz.png" alt="" />
+                        <div className='absolute bottom-6 left-3 bg-white/60 backdrop-blur-3xl w-11/12 h-40 flex flex-col items-start justify-center rounded-xl'>
+                            <div className='pl-4 text-xl text-white font-semibold'>Name</div>
+                            <div className='w-11/12 pl-4 text-xs text-white font-semibold'>Nunc velit ultrices lobortis elementum. Nunc velit ultrices lobortis elementum.Nunc velit ultrices lobortis elementum.</div>
+                        </div>
+                    </div>
+
+                    <div className="w-72 h-88 rounded-3xl relative">
+                        <img className="abolute w-full h-full object-cover rounded-3xl" src="./images/team/zz.png" alt="" />
+                        <div className='absolute bottom-6 left-3 bg-white/60 backdrop-blur-3xl w-11/12 h-40 flex flex-col items-start justify-center rounded-xl'>
+                            <div className='pl-4 text-xl text-white font-semibold'>Name</div>
+                            <div className='w-11/12 pl-4 text-xs text-white font-semibold'>Nunc velit ultrices lobortis elementum. Nunc velit ultrices lobortis elementum.Nunc velit ultrices lobortis elementum.</div>
+                        </div>
+                    </div>
+
+                    <div className="w-72 h-88 rounded-3xl relative">
+                        <img className="abolute w-full h-full object-cover rounded-3xl" src="./images/team/zz.png" alt="" />
+                        <div className='absolute bottom-6 left-3 bg-white/60 backdrop-blur-3xl w-11/12 h-40 flex flex-col items-start justify-center rounded-xl'>
+                            <div className='pl-4 text-xl text-white font-semibold'>Name</div>
+                            <div className='w-11/12 pl-4 text-xs text-white font-semibold'>Nunc velit ultrices lobortis elementum. Nunc velit ultrices lobortis elementum.Nunc velit ultrices lobortis elementum.</div>
+                        </div>
+                    </div>
+
+                    <div className="w-72 h-88 rounded-3xl relative">
+                        <img className="abolute w-full h-full object-cover rounded-3xl" src="./images/team/zz.png" alt="" />
+                        <div className='absolute bottom-6 left-3 bg-white/60 backdrop-blur-3xl w-11/12 h-40 flex flex-col items-start justify-center rounded-xl'>
+                            <div className='pl-4 text-xl text-white font-semibold'>Name</div>
+                            <div className='w-11/12 pl-4 text-xs text-white font-semibold'>Nunc velit ultrices lobortis elementum. Nunc velit ultrices lobortis elementum.Nunc velit ultrices lobortis elementum.</div>
+                        </div>
+                    </div>
+
+                    <div className="w-72 h-88 rounded-3xl relative">
+                        <img className="abolute w-full h-full object-cover rounded-3xl" src="./images/team/zz.png" alt="" />
+                        <div className='absolute bottom-6 left-3 bg-white/60 backdrop-blur-3xl w-11/12 h-40 flex flex-col items-start justify-center rounded-xl'>
+                            <div className='pl-4 text-xl text-white font-semibold'>Name</div>
+                            <div className='w-11/12 pl-4 text-xs text-white font-semibold'>Nunc velit ultrices lobortis elementum. Nunc velit ultrices lobortis elementum.Nunc velit ultrices lobortis elementum.</div>
+                        </div>
+                    </div>
+
+                    <div className="w-72 h-88 rounded-3xl relative">
+                        <img className="abolute w-full h-full object-cover rounded-3xl" src="./images/team/zz.png" alt="" />
+                        <div className='absolute bottom-6 left-3 bg-white/60 backdrop-blur-3xl w-11/12 h-40 flex flex-col items-start justify-center rounded-xl'>
+                            <div className='pl-4 text-xl text-white font-semibold'>Name</div>
+                            <div className='w-11/12 pl-4 text-xs text-white font-semibold'>Nunc velit ultrices lobortis elementum. Nunc velit ultrices lobortis elementum.Nunc velit ultrices lobortis elementum.</div>
+                        </div>
+                    </div>
+
+                    <div className="w-72 h-88 rounded-3xl relative">
+                        <img className="abolute w-full h-full object-cover rounded-3xl" src="./images/team/zz.png" alt="" />
+                        <div className='absolute bottom-6 left-3 bg-white/60 backdrop-blur-3xl w-11/12 h-40 flex flex-col items-start justify-center rounded-xl'>
+                            <div className='pl-4 text-xl text-white font-semibold'>Name</div>
+                            <div className='w-11/12 pl-4 text-xs text-white font-semibold'>Nunc velit ultrices lobortis elementum. Nunc velit ultrices lobortis elementum.Nunc velit ultrices lobortis elementum.</div>
+                        </div>
+                    </div>
+
+                    <div className="w-72 h-88 rounded-3xl relative">
+                        <img className="abolute w-full h-full object-cover rounded-3xl" src="./images/team/zz.png" alt="" />
+                        <div className='absolute bottom-6 left-3 bg-white/60 backdrop-blur-3xl w-11/12 h-40 flex flex-col items-start justify-center rounded-xl'>
+                            <div className='pl-4 text-xl text-white font-semibold'>Name</div>
+                            <div className='w-11/12 pl-4 text-xs text-white font-semibold'>Nunc velit ultrices lobortis elementum. Nunc velit ultrices lobortis elementum.Nunc velit ultrices lobortis elementum.</div>
+                        </div>
+                    </div>
+
                 </div>
+            </div>
+
+            {/* ------------------ sec4 -------------- */}
+            <div className="h-80 flex flex-col items-center justify-center bg-blue-100">
+                <div className="mt-8 text-4xl font-bold text-gray-700 mb-8">We are hiring</div>
+                <div className="text-sm w-2/3 text-center font-semibold text-gray-500 mb-4">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse blandit et amet, lacus at risus suspendisse et. Tellus bla
+                </div>
+                <button className="w-60 rounded-lg py-3.5 bg-indigo-600 hover:bg-indigo-700 text-white transition-colors mt-5 ">
+                    View Roles
+                </button>
             </div>
         </div>
     )
