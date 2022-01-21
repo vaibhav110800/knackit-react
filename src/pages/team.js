@@ -1,8 +1,5 @@
 import React from 'react'
 import { Link } from "react-router-dom";
-import {
-    LinkedinFilled,
-} from "@ant-design/icons";
 
 const Team = () => {
     return (
@@ -80,11 +77,10 @@ const Team = () => {
 
             {/* ------------------ sec3 -------------- */}
             <div className="bg-indigo-50 flex pt-12 pb-32 flex-col items-center justify-center">
+
                 <div className="mt-4 text-4xl font-bold text-gray-700 mb-4">Title</div>
 
                 <div className="pt-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-6">
-
-
                     <div className="w-72 h-88 rounded-3xl relative">
                         <img className="abolute w-full h-full object-cover rounded-3xl" src="./images/team/zz.png" alt="" />
                         <div className='absolute bottom-6 left-3 bg-white/60 backdrop-blur-3xl w-11/12 h-40 flex flex-col items-start justify-center rounded-xl'>
