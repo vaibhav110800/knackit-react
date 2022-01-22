@@ -51,15 +51,20 @@ const Contact = () => {
 
             {/* ------------------ sec1 -------------- */}
             <div className="bg-indigo-50 min-h-screen -mt-16 flex items-center justify-center">
-                <div className="w-full flex">
-                    <div className="basis-1/5 flex flex-col items-center justify-center">
+                <div className="w-full flex flex-col lg:flex-row xl:flex-row 2xl:flex-row">
+                    <div className=" min-h-screen basis-1/5 flex flex-col items-center justify-center">
                         <div className="text-4xl font-bold text-gray-700 z-10 translate-y-4">Contact Us</div>
-                        <div className="text-9xl font-black text-gray-300 rotate-90 translate-x-32 -translate-y-4">CONTACT</div>
+                        <div className="text-9xl font-black text-gray-300 rotate-90 translate-x-28 -translate-y-4">CONTACT</div>
                     </div>
                     <div className="relative basis-4/5 min-h-screen">
-                        <img className="absolute top-52 left-28" src="./images/contact/1.png" alt="" />
-                        <img className="absolute top-96 left-60" src="./images/contact/2.png" alt="" />
-                        <div className="translate-x-12 absolute top-28 left-96 w-80 h-96 bg-white rounded-3xl flex items-center justify-center flex-col">
+                        <img className="absolute top-0 left-4 sm:left-16 sm:top-12 md:left-36 md:top-12 lg:top-52 lg:-left-16
+                        xl:top-52 xl:left-8 2xl:top-52 2xl:left-28" src="./images/contact/1.png" alt="" />
+
+                        <img className="absolute top-56 left-32 sm:left-96 md:left-96 lg:top-96 lg:left-4
+                        xl:top-96 xl:left-40 2xl:top-96 2xl:left-60" src="./images/contact/2.png" alt="" />
+
+                        <div className="absolute top-96 left-0 sm:left-28 md:left-56 lg:top-24 lg:left-16
+                        xl:top-28 xl:left-72 2xl:top-28 2xl:left-96 translate-x-4 w-80 h-96 bg-white rounded-3xl flex items-center justify-center flex-col">
                             <input className='w-5/6 h-12 border-2 border-transparent border-b-gray-400 text-md text-gray-500 font-semibold mb-4' type="text" name="name" placeholder='Name' />
                             <input className='w-5/6 h-12 border-2 border-transparent border-b-gray-400 text-md text-gray-500 font-semibold mb-4' type="text" name="name" placeholder='Email' />
                             <input className='w-5/6 h-12 border-2 border-transparent border-b-gray-400 text-md text-gray-500 font-semibold mb-4' type="text" name="name" placeholder='Phone' />
