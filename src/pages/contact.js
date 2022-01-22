@@ -80,7 +80,7 @@ const Contact = () => {
             {/* ------------------ sec2 -------------- */}
             <div className="bg-indigo-50 flex pt-40 pb-36 flex-col items-center justify-center">
 
-                <div className="mt-4 text-4xl font-bold text-gray-700 mb-4">
+                <div className="mt-4 text-2xl sm:text-4xl font-bold text-gray-700 mb-4">
                     Let us know how we can help
                 </div>
 
